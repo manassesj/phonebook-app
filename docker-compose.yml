@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:17.5
+    container_name: phonebook_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: phonebookdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - phonebook-network
+
+volumes:
+  pgdata:
+
+networks:
+  phonebook-network:
+    driver: bridge
