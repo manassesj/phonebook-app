@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.phonebook.dto.ContactRequestDTO;
@@ -56,7 +55,7 @@ public class ContactController {
     }
 
     @PatchMapping("/{id}/favorite")
-    public ResponseEntity<ContactResponseDTO> toggleFavorite(@PathVariable Long id, @RequestParam boolean favorite) {
+    public ResponseEntity<ContactResponseDTO> toggleFavorite(@PathVariable Long id) {
         return ResponseEntity.ok(service.toggleFavorite(id));
     }
 
