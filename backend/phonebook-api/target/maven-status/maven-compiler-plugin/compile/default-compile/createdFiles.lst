@@ -1,3 +1,12 @@
-com/phonebook/entity/Contato.class
+com/phonebook/mapper/ContactMapper.class
+com/phonebook/exception/ApiError.class
+com/phonebook/service/ContactService.class
+com/phonebook/dto/ContactResponseDTO.class
+com/phonebook/exception/GlobalExceptionHandler.class
+com/phonebook/repository/ContactRepository.class
 com/phonebook/PhonebookApiApplication.class
+com/phonebook/dto/ContactRequestDTO.class
+com/phonebook/controller/ContactController.class
+com/phonebook/entity/Contact.class
+com/phonebook/entity/Contact$ContactBuilder.class
 com/phonebook/config/EnvConfig.class

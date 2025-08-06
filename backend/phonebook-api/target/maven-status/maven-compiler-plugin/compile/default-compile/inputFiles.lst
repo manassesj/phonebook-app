@@ -1,3 +1,11 @@
 /home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/PhonebookApiApplication.java
 /home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/config/EnvConfig.java
-/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/entity/Contato.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/controller/ContactController.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/dto/ContactRequestDTO.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/dto/ContactResponseDTO.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/entity/Contact.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/exception/ApiError.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/exception/GlobalExceptionHandler.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/mapper/ContactMapper.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/repository/ContactRepository.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/service/ContactService.java
