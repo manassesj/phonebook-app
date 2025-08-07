@@ -1,0 +1,11 @@
+com/phonebook/dto/ContactResponseDTOTest.class
+com/phonebook/mapper/ContactMapperTest.class
+com/phonebook/dto/ContactRequestDTOTest.class
+com/phonebook/controller/ContactControllerTest.class
+com/phonebook/exception/GlobalExceptionHandlerTest.class
+com/phonebook/service/ContactServiceTest.class
+com/phonebook/entity/ContactTest.class
+com/phonebook/config/CorsConfigTest.class
+com/phonebook/exception/ApiErrorTest.class
+com/phonebook/config/EnvConfigTest.class
+com/phonebook/repository/ContactRepositoryTest.class

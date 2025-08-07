@@ -6,27 +6,19 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-  },
-  "prettier": {
-    "overrides": [
-      {
-        "files": "*.html",
-        "options": {
-          "parser": "angular"
-        }
-      }
-    ]
+    "test": "ng test",
+    "test:watch": "ng test --watch"
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^20.1.0",
-    "@angular/compiler": "^20.1.0",
-    "@angular/core": "^20.1.0",
-    "@angular/forms": "^20.1.0",
-    "@angular/platform-browser": "^20.1.0",
-    "@angular/router": "^20.1.0",
+    "@angular/common": "20.1.5",
+    "@angular/compiler": "20.1.5",
+    "@angular/core": "20.1.5",
+    "@angular/forms": "20.1.5",
+    "@angular/platform-browser": "20.1.5",
+    "@angular/router": "20.1.5",
     "@ng-bootstrap/ng-bootstrap": "^19.0.1",
+    "@angular/platform-browser-dynamic": "20.1.5",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
@@ -35,17 +27,18 @@
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular/build": "^20.1.4",
-    "@angular/cli": "^20.1.4",
-    "@angular/compiler-cli": "^20.1.0",
-    "@angular/localize": "^20.1.0",
-    "@types/jasmine": "~5.1.0",
-    "jasmine-core": "~5.8.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "~5.8.2"
+    "@angular/cli": "20.1.5",
+    "@angular/compiler-cli": "20.1.5",
+    "@angular/localize": "20.1.5",
+    "@angular-devkit/build-angular": "20.1.5",
+    "typescript": "~5.8.2",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0",
+    "jasmine-core": "^4.6.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "@types/jasmine": "^4.3.0",
+    "@types/node": "^18.16.3"
   }
 }

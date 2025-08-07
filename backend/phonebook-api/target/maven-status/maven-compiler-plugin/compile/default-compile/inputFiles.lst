@@ -1,4 +1,5 @@
 /home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/PhonebookApiApplication.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/config/CorsConfig.java
 /home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/config/EnvConfig.java
 /home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/controller/ContactController.java
 /home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/main/java/com/phonebook/dto/ContactRequestDTO.java

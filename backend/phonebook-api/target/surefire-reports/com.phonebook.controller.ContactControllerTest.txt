@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.phonebook.controller.ContactControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.797 s -- in com.phonebook.controller.ContactControllerTest

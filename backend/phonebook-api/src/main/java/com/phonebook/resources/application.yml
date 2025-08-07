@@ -1,6 +1,10 @@
 spring:
   profiles:
     active: ${PROFILE}
+  flyway:
+    enabled: false
+  liquibase:
+    enabled: false
 
 ---
 

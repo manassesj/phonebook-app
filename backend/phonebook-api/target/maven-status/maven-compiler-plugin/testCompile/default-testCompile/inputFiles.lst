@@ -1,1 +1,11 @@
-/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/AppTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/config/CorsConfigTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/config/EnvConfigTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/controller/ContactControllerTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/dto/ContactRequestDTOTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/dto/ContactResponseDTOTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/entity/ContactTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/exception/ApiErrorTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/exception/GlobalExceptionHandlerTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/mapper/ContactMapper.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/repository/ContactRepositoryTest.java
+/home/iuyg/projetos/phonebook-app/backend/phonebook-api/src/test/java/com/phonebook/service/ContactServiceTest.java
